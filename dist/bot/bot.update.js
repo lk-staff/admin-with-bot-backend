@@ -17,6 +17,7 @@ const nestjs_telegraf_1 = require("nestjs-telegraf");
 const telegraf_1 = require("telegraf");
 let BotUpdate = class BotUpdate {
     async start(ctx) {
+        console.log('ctx: ', ctx.update);
         await ctx.reply('Welcome');
     }
     async help(ctx) {

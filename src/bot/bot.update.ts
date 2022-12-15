@@ -5,6 +5,7 @@ import { Context } from 'telegraf';
 export class BotUpdate {
   @Start()
   async start(@Ctx() ctx: Context) {
+    console.log('ctx: ', ctx.update);
     await ctx.reply('Welcome');
   }
 

@@ -13,6 +13,7 @@ const nestjs_telegraf_1 = require("nestjs-telegraf");
 const bot_service_1 = require("./bot.service");
 const bot_controller_1 = require("./bot.controller");
 const bot_config_1 = require("../config/bot.config");
+const bot_update_1 = require("./bot.update");
 let BotModule = class BotModule {
 };
 BotModule = __decorate([
@@ -25,7 +26,7 @@ BotModule = __decorate([
             }),
         ],
         controllers: [bot_controller_1.BotController],
-        providers: [bot_service_1.BotService],
+        providers: [bot_service_1.BotService, bot_update_1.BotUpdate],
     })
 ], BotModule);
 exports.BotModule = BotModule;
