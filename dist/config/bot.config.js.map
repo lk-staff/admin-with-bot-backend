@@ -1,0 +1,1 @@
+{"version":3,"file":"bot.config.js","sourceRoot":"","sources":["../../src/config/bot.config.ts"],"names":[],"mappings":";;;AACA,uCAAmC;AAG5B,MAAM,YAAY,GAAG,KAAK,EAC/B,aAA4B,EACI,EAAE,CAAC,CAAC;IACpC,KAAK,EAAE,aAAa,CAAC,GAAG,CAAS,WAAW,CAAC;IAC7C,WAAW,EAAE,CAAC,IAAA,kBAAO,GAAE,CAAC;CACzB,CAAC,CAAC;AALU,QAAA,YAAY,gBAKtB"}
